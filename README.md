@@ -12,3 +12,6 @@ Example: `rename -v "s/old_extension/new_extension/" *.old_extension`
 
 ## scan network
 `nmap -sn 192.168.1.0/24`
+
+## cloning an existing repo from GitHub
+`git clone https://github.com/timjzee/repo_name`
