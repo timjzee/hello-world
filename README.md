@@ -18,6 +18,9 @@ Example: `rename -v "s/old_extension/new_extension/" *.old_extension`
 
 ## checking connection of usb devices, filesystem, mounting and unmounting
 `dmesg`
+
 `fdisk /dev/sdX -l`
+
 `mount /dev/sdX /mnt`
+
 `umount /mnt`
