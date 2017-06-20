@@ -15,3 +15,9 @@ Example: `rename -v "s/old_extension/new_extension/" *.old_extension`
 
 ## cloning an existing repo from GitHub
 `git clone https://github.com/timjzee/repo_name`
+
+## checking connection of usb devices, filesystem, mounting and unmounting
+`dmesg
+fdisk /dev/sdX -l
+mount /dev/sdX /mnt
+umount /mnt`
