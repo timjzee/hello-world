@@ -24,3 +24,6 @@ Example: `rename -v "s/old_extension/new_extension/" *.old_extension`
 `mount /dev/sdX /mnt`
 
 `umount /mnt`
+
+## extract archive
+`tar -xzvf <filename>.tar.gz`
