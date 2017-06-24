@@ -27,3 +27,16 @@ Example: `rename -v "s/old_extension/new_extension/" *.old_extension`
 
 ## extract archive
 `tar -xzvf <filename>.tar.gz`
+
+## mining protocol
+### Check opencl as root
+`# clinfo`
+### Start xserver in screen
+`xinit`
+### Run atitweak to overclock gpu
+`atitweak --set-engine-clock=650 --performance-level=2 --adapter=0`
+`atitweak --set-memory-clock=950 --performance-level=2 --adapter=0`
+### Start Marlin in screen
+`runMarlin.sh`
+### Check temperature with amdcovc as root
+`./amdcovc -v | grep 'Temp'`
