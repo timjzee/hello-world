@@ -39,4 +39,4 @@ Example: `rename -v "s/old_extension/new_extension/" *.old_extension`
 ### Start Marlin in screen
 `runMarlin.sh`
 ### Check temperature with atitweak
-`atitweak -s | grep 'Temp'`
+`atitweak -s | grep 'temp'`
