@@ -38,5 +38,5 @@ Example: `rename -v "s/old_extension/new_extension/" *.old_extension`
 `atitweak --set-memory-clock=950 --performance-level=2 --adapter=0`
 ### Start Marlin in screen
 `runMarlin.sh`
-### Check temperature with amdcovc as root
-`./amdcovc -v | grep 'Temp'`
+### Check temperature with atitweak
+`atitweak -s | grep 'Temp'`
