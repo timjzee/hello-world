@@ -33,10 +33,13 @@ Example: `rename -v "s/old_extension/new_extension/" *.old_extension`
 `# clinfo`
 ### Start xserver in screen
 `xinit`
-### Run atitweak to overclock gpu
-`atitweak --set-engine-clock=650 --performance-level=2 --adapter=0`
-`atitweak --set-memory-clock=950 --performance-level=2 --adapter=0`
+### Run atitweak to over/underclock gpu
+`atitweak --set-engine-clock=725 --performance-level=2 --adapter=0`
+
+`atitweak --set-memory-clock=700 --performance-level=2 --adapter=0`
+### Start script to monitor gpu temps in screen
+`checkGPUTemp.py`
 ### Start Marlin in screen
 `runMarlin.sh`
-### Check temperature with atitweak
-`atitweak -s | grep 'temp'`
+### (Optional) Manually check temperature with atitweak
+`atitweak -s | grep temp`
