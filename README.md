@@ -43,3 +43,11 @@ Example: `rename -v "s/old_extension/new_extension/" *.old_extension`
 `runMarlin.sh`
 ### (Optional) Manually check temperature with atitweak
 `atitweak -s | grep temp`
+
+## manage crontab
+### add line
+`crontab -e`
+### backup user crontab
+`crontab -l > /home/tim/Documents/user-crontab`
+### restore user crontab
+`crontab /home/tim/Documents/user-crontab`
