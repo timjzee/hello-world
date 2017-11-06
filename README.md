@@ -58,4 +58,4 @@ https://apple.stackexchange.com/questions/31438/how-do-i-use-chmod-on-a-mac-to-m
 `chmod +a "group:examplegroup allow list,add_file,search,add_subdirectory,delete_child,readattr,writeattr,readextattr,writeextattr,readsecurity,file_inherit,directory_inherit" /path/to/folder
 `
 ### check all permissions
-ls -le
+`ls -le`
