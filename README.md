@@ -51,3 +51,11 @@ Example: `rename -v "s/old_extension/new_extension/" *.old_extension`
 `crontab -l > /home/tim/Documents/user-crontab`
 ### restore user crontab
 `crontab /home/tim/Documents/user-crontab`
+
+## manage permissions on macOS
+https://apple.stackexchange.com/questions/31438/how-do-i-use-chmod-on-a-mac-to-make-new-files-inherit-parent-directory-permissio
+### add ACE
+`chmod +a "group:examplegroup allow list,add_file,search,add_subdirectory,delete_child,readattr,writeattr,readextattr,writeextattr,readsecurity,file_inherit,directory_inherit" /path/to/folder
+`
+### check all permissions
+ls -le
