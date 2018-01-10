@@ -59,3 +59,6 @@ https://apple.stackexchange.com/questions/31438/how-do-i-use-chmod-on-a-mac-to-m
 `
 ### check all permissions
 `ls -le`
+
+## Encrypt .zip files
+`zip -e archivename.zip filetoprotect.txt`
